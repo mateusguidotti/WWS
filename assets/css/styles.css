@@ -165,7 +165,7 @@ textarea{
 }
 
 
-/* @media(max-width:1260px) {
+@media(max-width:1260px) {
     #header h1 {
         font-size: 60px;
     }
@@ -182,54 +182,39 @@ textarea{
 }
 
 @media(max-width:576px) {
-    #header {
-        height: 103px;
-    }
+   .button-container{
+    width:75%;
+    height: 60px;
+    padding:5px;
+   }
 
-    #header img {
-        width: 65px;
-        margin-left: 18px;
-    }
+   .button-container img{
+    width:55px;
+    height:55px;    
+   }
 
-    #header h1 {
-        font-size: 23px;
-        line-height: 30px;
-        margin: 0;
-    }
+   .button-container span{
+    font-size: 23px;
+    margin-left: 90px;
+   }
 
-    #title {
-        padding: 22px 0 0 83px;
-    }
+   #contact-section{
+    flex-direction:column;
+   }
 
-    h2 {
-        font-size: 21px;
-        margin: 20px 5px 20px 5px;
-    }
+   #socialmediabuttons-container{
+    padding:15px 22px;
+   }
 
-    .button-container {
-        height: 35px;
-    }
+   #form-container button{
+    width:255px;
+    font-size:18px; 
+   }
 
-    .button-container img {
-        width: 40px;
-        height: 40px;
-        left: 10px;
-    }
-
-    .button-container span {
-        font-size: 20px;
-        margin-left: 60px;
-    }
-
-    #contact-section {
-        gap: 25px;
-        padding: 10px 75px;
-    }
-
-    #support-button {
-        width: 50px;
-        height: 50px;
-    }
+   #form-container button img{
+    width: 30px;
+    height: 30px;
+   }
 }
 
 @media(max-width:405px) {
@@ -255,4 +240,4 @@ textarea{
         width: 45px;
         height: 45px;
     }
-} */
+}
